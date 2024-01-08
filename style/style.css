@@ -317,12 +317,13 @@ header{
 }
 .newslater-content-wrapper {
     background: rgba(255, 0, 0, 0.05);
-    padding: 70px;
+    border-radius: 16px;
 }
 .newslater-content {
     width: 70%;
     margin: auto;
     text-align: center;
+    padding: 70px 0px;
 }
 .newslater-h1 {
     color: #070211;
@@ -360,3 +361,11 @@ header{
     background-color: rgb(168, 63, 63);
     color: #fff;
 }
+
+/* footer section */
+/* footer {
+    background-color: #070211;
+}
+.footer-content {
+    padding: 70px 0px;
+} */
