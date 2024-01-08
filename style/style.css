@@ -207,3 +207,77 @@ header{
     margin-bottom: 45px;
 }
 
+/* holiday sell section */
+.holiday-sell-heading {
+    width: 55%;
+    margin: auto;
+    text-align: center;
+    font-family: Inter;
+    margin-bottom: 40px;
+}
+.holiday-h4 {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.holiday-span {
+    color: #F00;
+}
+.holiday-h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 62px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.holiday-p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.holiday-sell-content {
+    width: 100%;
+    height: 85vh;
+    position: relative;
+}
+.img0 {
+    position: absolute;
+    left: 55%;
+    z-index: 1;
+}
+.img3 {
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+}
+.img3 img {
+    width: 100%;
+}
+.img2 {
+    width: 30%;
+    position: absolute;
+    right: 0;
+    bottom: 30%;
+}
+.img2 img {
+    width: 100%;
+    vertical-align: middle;
+}
+.img1 {
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    bottom: 0;
+}
+.img1 img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+
