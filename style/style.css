@@ -1,0 +1,206 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* common shared style */
+* {
+    margin: 0;
+    padding: 0;
+}
+section {
+    margin: 80px 0;
+}
+.container {
+    width: 1320px;
+    margin: auto;
+}
+
+/* header */
+header{
+    font-family: 'Merriweather', serif;
+}
+.header-banner {
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+.header-content {
+    width: 45%;
+    margin: auto;
+    color: #fff;
+    padding-top: 150px;
+}
+.header-h4 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 30px;
+} 
+.header-h1 {
+    font-size: 68px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+/* off wrapper */
+.off-wrapper{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+.off-h1 {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.off-h6 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.off-h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.off-wrapper img {
+    width: 100%;
+}
+
+/* welcome section */
+.welcome-content-banner {
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    margin: auto;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    display: flex;
+    /* justify-content: space-between; */
+}
+.welcome-content {
+    width: 640px;
+    padding: 126px;
+    color: #fff
+}
+.welcome-h1 {
+    font-size: 64px;
+    font-family: Merriweather;
+    font-weight: 900;
+    line-height: 88px;
+    margin-bottom: 24px;
+}
+.welcome-p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+.welcome-btn {
+    padding: 15px 25px;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .3s;
+}
+.welcome-btn:hover {
+    color: #fff;
+    background-color: #070211;
+}
+.welcome-content-banner img {
+    width: 25%;
+    height: 70%;
+    margin-top: 140px;
+}
+
+/* schedule section */
+.schedules {
+    width: 1320px;
+    margin: auto;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 8px;
+    padding: 80px 0px;
+    text-align: center;
+}
+.schedule-span {
+    color: #F00;
+}
+.schedule-h2 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+.btn-schedule {
+    color: #fff;
+    background-color: #F00;
+    padding: 15px 25px;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 30px;
+}
+.btn-schedule:hover {
+    color: #fff;
+    background-color: #cf5151;
+}
+
+/* best offer section */
+#best-offer-section {
+    margin: 130px 0;
+}
+.best-offer-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.best-offer {
+    width: 25%;
+    font-family: Inter;
+}
+.best-offer-h4 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.best-offer-h3 {
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.best-offer-p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.best-offer-next-h3 {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.best-offer-img {
+    border: 10px solid #F00;
+    padding: 15px;
+    border-radius: 100%;
+}
+.best-offer-img img {
+    width: 100%;
+}
+
