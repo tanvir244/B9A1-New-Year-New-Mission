@@ -189,12 +189,6 @@ header{
     font-weight: 400;
     line-height: 32px;
 }
-.best-offer-next-h3 {
-    color: #F00;
-    font-size: 48px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
 .best-offer-img {
     border: 10px solid #F00;
     padding: 15px;
@@ -202,5 +196,14 @@ header{
 }
 .best-offer-img img {
     width: 100%;
+}
+.best-offer-next-h3 {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.best-offer-p {
+    margin-bottom: 45px;
 }
 
